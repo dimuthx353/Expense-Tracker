@@ -13,7 +13,7 @@ setInterval(() => {
   if (x >= 6) {
     x = 1;
   }
-  bodyEl.style.backgroundImage = `url(../images/${x}.jpg)`;
+  bodyEl.style.backgroundImage = `url(./images/${x}.jpg)`;
   x++;
 }, 5000);
 
