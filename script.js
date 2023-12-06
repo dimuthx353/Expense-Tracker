@@ -14,6 +14,7 @@ setInterval(() => {
     x = 1;
   }
   bodyEl.style.backgroundImage = `url(./images/${x}.jpg)`;
+  console.log(bodyEl.style.backgroundImage);
   x++;
 }, 5000);
 
